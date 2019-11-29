@@ -2,7 +2,7 @@
 title = "Peek6502"
 date = 2019-11-29T10:20:01Z
 draft = false
-tags = ["atari800"]
+tags = ["atari800", "rust"]
 categories = []
 +++
 
