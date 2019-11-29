@@ -6,6 +6,10 @@ tags = ["skastic", "lisp"]
 categories = []
 +++
 
+| ![Factorial function implemented in skastic](/images/factorial.ska.png) | 
+|:--:| 
+| *This .png file is source code.* |
+
 I came across a post on slashdot recently about an esoteric programming language based on ASCII art. (https://developers.slashdot.org/story/17/08/13/2033239/new-asciidots-programming-language-uses-ascii-art-and-python). It's pretty novel and interesting, and in the comments section, people mentioned some related languages with similar characteristics which can be found on esolangs.org. I was intrigued by some other languages which use lines to show control or data flow, some of which are found in a list of two-dimensional languages https://esolangs.org/wiki/Category:Two-dimensional_languages. The overall visual appearance of https://esolangs.org/wiki/Rail is unusual among languages on esolangs.org in that is arguably readable.
 
 This inspired me to dig in again to visual programming languages, a topic I haven't spent much time on in years. Many of the visual languages I am aware of use an IDE wherein programs are made by hooking together some sort of nodes using tools. That is, the visual code is a structured diagram of some sort. Examples of these languages I have some familiarity with include Scratch, Prograph (Marten), Max/MSP, and vvvv. But are there any visual languages that deduce code and data structure using raw images rather than structured diagrams?
