@@ -1,5 +1,5 @@
 +++
-title = "Fixing sound effects issues in LibGDX on Android"
+title = "LibGDX, Preferences, and Android"
 date = 2017-09-02T09:17:00Z
 draft = false
 tags = ["libgdx", "java", "gamedev", "android"]
