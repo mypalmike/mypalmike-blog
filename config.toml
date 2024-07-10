@@ -1,13 +1,34 @@
 baseURL = "http://mypalmike.github.io/"
 languageCode = "en-us"
-title = "Mypalmike's Blog"
-theme = "ananke"
+title = "mypalmike"
+theme = "terminal"
+paginate = 5
+summaryLength = 20
+copyright = "© 2024 mypalmike. All rights reserved. Made with Hugo with theme Terminal."
+
+[params]
+Logo.logoText = "mypalmike"
+centerTheme = true
+themeColor = "green"
+ReadMore = "Read More..."
 
 [[menu.main]]
-    name = "Home" #Name in the navigation bar
-    weight = 10 #The larger the weight, the more on the right this item will be
-    url = "/" #URL address
+name = "Home"
+weight = 10
+url = "/"
 [[menu.main]]
-    name = "Posts"
-    weight = 20
-    url = "/posts/"
+name = "My Work"
+weight = 20
+url = "/work"
+[[menu.main]]
+name = "Tech Blog"
+weight = 30
+url = "/tech_blog"
+[[menu.main]]
+name = "Writing"
+weight = 40
+url = "/writing"
+[[menu.main]]
+name = "Caption Contest"
+weight = 50
+url = "/captions"

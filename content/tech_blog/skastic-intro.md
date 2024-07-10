@@ -6,9 +6,7 @@ tags = ["skastic", "lisp"]
 categories = []
 +++
 
-| ![Factorial function implemented in skastic](/images/factorial.ska.png) | 
-|:--:| 
-| *This .png file is source code.* |
+{{< figure src="/images/factorial.ska.png" alt="Factorial function implemented in skastic" position="left" style="border-radius: 8px;" caption="This .png file is source code." >}}
 
 I came across a post on slashdot recently about an esoteric programming language based on ASCII art. (https://developers.slashdot.org/story/17/08/13/2033239/new-asciidots-programming-language-uses-ascii-art-and-python). It's pretty novel and interesting, and in the comments section, people mentioned some related languages with similar characteristics which can be found on esolangs.org. I was intrigued by some other languages which use lines to show control or data flow, some of which are found in a list of two-dimensional languages https://esolangs.org/wiki/Category:Two-dimensional_languages. The overall visual appearance of https://esolangs.org/wiki/Rail is unusual among languages on esolangs.org in that is arguably readable.
 

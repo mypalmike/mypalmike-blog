@@ -28,12 +28,7 @@ At this stage, I can load the Atari 800 OS ROM into memory and watch it try to b
 
 I've started to implement the Antic chip emulation based on an Atari spec document. I don't completely understand how the Antic display list timing works in relation to CPU timing, but I think I can ignore that for now as I aim to get it to boot into "memo pad".
 
-| ![ATARI COMPUTER - MEMO PAD](/images/Atari_Computer_Memo_Pad.png) | 
-|:--:| 
-| *The next major milestone* |
-
-<!-- ![ATARI COMPUTER - MEMO PAD](/images/Atari_Computer_Memo_Pad.png)
-* Next major goal* -->
+{{< figure src="/images/Atari_Computer_Memo_Pad.png" alt="Screenshot of an Atari 800 displaying the default text, ATARI COMPUTER - MEMO PAD" position="left" style="border-radius: 8px;" caption="Next major goal." >}}
 
 When I emulate the Antic chip advancing the scanline, the OS gets further in the boot sequence and then gets into a loop where it simply runs the RTCCLOCK at zero page addresses 0x12 - 0x14. Apart from this, the only thing it seems to do is enable VBI on the Antic chip (NMIEN). So this is where I am going to have to implement interrupt handling. It seems the CPU and Antic chips do a dance (or more likely, several dances) where control and data are exchanged through interrupts. In this case, enabling VBI on the Antic chip means that the Antic is supposed to start interrupting the CPU once it hits vertical blank. So that's next to implement.
 
